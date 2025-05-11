@@ -1,18 +1,15 @@
 package Steps;
 
 import Logic.AdvantageonlineshoppingLogic;
-import Runners.WebRunner;
+import Support.DriverManager;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
-import javax.sound.midi.ShortMessage;
-import javax.swing.*;
-
 public class advantageonlineshoppingSteps {
-    private WebDriver driver = WebRunner.getDriver();
+    private WebDriver driver = DriverManager.getDriver();
     private AdvantageonlineshoppingLogic advantageonlineshoppinglogic = new AdvantageonlineshoppingLogic();
 
     @Given("que estou na tela princpal")

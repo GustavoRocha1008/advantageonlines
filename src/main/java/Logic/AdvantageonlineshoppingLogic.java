@@ -1,33 +1,19 @@
 package Logic;
 
 import Pages.AdvantageonlineshoppingPage;
-import Runners.WebRunner;
-import org.junit.Assert;
+import Support.DriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import org.openqa.selenium.Keys;
-import java.time.Instant;
-
-
-import static java.awt.SystemColor.window;
 import static org.junit.Assert.assertTrue;
 
 
 public class AdvantageonlineshoppingLogic {
     private WebDriver driver;
     private AdvantageonlineshoppingPage advantageonlineshoppingPage;
-
-    public AdvantageonlineshoppingLogic() {
-        this.driver = WebRunner.getDriver(); // Obtém o driver do WebRunner
-        this.advantageonlineshoppingPage = new AdvantageonlineshoppingPage(driver); // Inicializa a página com o driver
-    }
-
-    public void Homepage(){
-        driver.get("https://www.advantageonlineshopping.com/");
-    }
 
     public void MenuUsuario() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

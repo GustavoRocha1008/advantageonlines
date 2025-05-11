@@ -1,0 +1,37 @@
+# Compilação e build
+/target/
+/build/
+/bin/
+/out/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+/.settings/
+.classpath
+.project
+
+# Arquivos gerados
+*.class
+*.jar
+*.war
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Testes
+/test-output/
+/allure-results/
+/allure-report/
+/cucumber-reports/
+
+# Sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Gradle
+.gradle/
