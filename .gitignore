@@ -20,6 +20,7 @@
 *.tmp
 *.bak
 *.swp
+*hs_err_pid18204.log
 
 # Testes
 /test-output/
