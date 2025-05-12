@@ -7,13 +7,13 @@ public class Hooks {
 
     @Before
     public void setUp() {
-        WebDriver driver = DriverManager.getDriver();
+        WebDriver driver = GerenciadorNavegador.getDriver();
         driver.get("https://www.advantageonlineshopping.com/");
     }
 
     @After
     public void tearDown() {
-        DriverManager.quitDriver();
+        GerenciadorNavegador.quitDriver();
     }
 }
 
