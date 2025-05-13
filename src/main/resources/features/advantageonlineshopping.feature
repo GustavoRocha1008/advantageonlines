@@ -15,13 +15,13 @@
   @CT0003
     Scenario: Altera Cadastro (Account details)
       Given estou logado
-      When  faço alteração dos dados de cadastro Account details
+      When  faco alteracao dos dados de cadastro Account details
       Then  Account details esta alterado conforme solicitado
 
   @CT0004
     Scenario: Altera cadastrado (Preferred payment method)
       Given estou na logado
-      When  faço alteração dos dados de cadastro Preferred payment method
+      When  faco alteracao dos dados de cadastro Preferred payment method
       Then  Preferred payment method e alterado conforme solicitado
 
   @CT0005
@@ -32,7 +32,7 @@
 
   @CT0006
     Scenario: busca de produtos
-      Given que estou na tela princapal
+      Given que estou na tela principal
       When  realizo a busca
       Then  o produto e encontrado
 
@@ -50,6 +50,6 @@
 
   @CT0009
     Scenario: Delatar conta (Delete Account)
-      Given  que  acessa o menu do usuário
+      Given  que acesso o menu do usuário
       When   solicito a a exclusão da minha conta
-      Then   a solicitação de exclusão efetuada com sucesso
+      Then   a solicitacao de exclusao efetuada com sucesso
