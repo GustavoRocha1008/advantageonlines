@@ -13,7 +13,4 @@ public class TelaCadastroPage {
     public By ConfirmPasswordCadastro = By.xpath("//sec-view[@class='ng-isolate-scope sec-view']//input[@name='confirm_passwordRegisterPage']");
     public By CheckboxIagree = By.xpath("//sec-view[@class='ng-isolate-scope sec-view' and @sec-name='registrationAgreement']");
     public By BtoRegister = By.id("register_btn");
-    public By EmailCadastro = By.xpath("//div[@id='formCover']//input[@name='emailRegisterPage']");
-    public By PasswordCadastro = By.xpath("//div[@class='spliter']//input[@name='passwordRegisterPage']");
-    public By ConfirmPasswordCadastro = By.xpath("//sec-view[@class='ng-isolate-scope sec-view']//input[@name='confirm_passwordRegisterPage']");
 }

@@ -4,10 +4,10 @@
       Scenario: Criando conta (CREATE NEW ACCOUNT)
         Given  que estou na tela principal
         When   prencho o formulario de cadastro
-        Then   o usuário e criado com sucesso
+        Then   o usuario e criado com sucesso
 
   @CT0002
-      Scenario: Login do usuário
+      Scenario: Login do usuario
         Given Acessei o site
         When  Realizo o login
         Then  usuário e logado com sucesso
@@ -20,14 +20,14 @@
 
   @CT0004
     Scenario: Altera cadastrado (Preferred payment method)
-      Given estou na logado
+      Given estou logado
       When  faco alteracao dos dados de cadastro Preferred payment method
       Then  Preferred payment method e alterado conforme solicitado
 
   @CT0005
     Scenario: Compra do produto
       Given que estou na pagina principal logado
-      When  faço checkout do produto
+      When  faco checkout do produto
       Then  o produto e comprado com sucesso
 
   @CT0006
@@ -51,5 +51,5 @@
   @CT0009
     Scenario: Delatar conta (Delete Account)
       Given  que acesso o menu do usuário
-      When   solicito a a exclusão da minha conta
+      When   solicito a exclusao da minha conta
       Then   a solicitacao de exclusao efetuada com sucesso
